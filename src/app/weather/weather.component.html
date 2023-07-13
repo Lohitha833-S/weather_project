@@ -1,0 +1,103 @@
+<div class="background">
+<div class="search">
+    <form #form="ngForm" (submit)="onSubmit()">
+      <input type= "text" placeholder="search city" name="city"[(ngModel)]="cityName"> 
+    </form>
+  <div class="container" *ngIf="weatherData">
+    <div class="upper-data">
+      <img  style="flex-direction: column;" src="../assets/pacific-sunset-wall-mural-1641.jpg" *ngIf="weatherData.current.temp_c> 15">
+      <img
+        src="../assets/cld.jpg"
+        *ngIf="weatherData.current.temp_c<=15">
+  
+      <div class="weather-data">
+        <div class="location">{{weatherData.location.name}}</div>
+        <div class="temperature">{{ weatherData.current.temp_c | number : "1.0-0" }}°C</div>
+      </div>
+    </div>
+    <div class="lower-data">
+      <div class="more-info-label">More Information</div>
+      <div class="more-info-container">
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../../assets/istockphoto-1047557290-612x612.jpg"/>
+            <span>min</span>
+          </div>
+          <div class="info-block-value">{{weatherData.current.temp_c}}°C</div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../../assets/high.png">
+            <span>max</span>
+          </div>
+          <div class="info-block-value">{{weatherData.current.temp_f}}°C</div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/download.png"/>
+            <span>humidity</span>
+          </div>
+          <div class="info-block-value">{{weatherData.current.humidity}}%</div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/wind.png"/>
+            <span>wind</span>
+          </div>
+          <div class="info-block-value">{{weatherData.current.wind_kph}}km/hr</div>
+        </div>
+  
+      </div>
+    </div>
+   </div>
+  </div>
+   
+   <!-- <div class="container"> 
+    <div class="upper-data">
+      <img  style="flex-direction: column;" src="../assets/pacific-sunset-wall-mural-1641.jpg" *ngIf="14 > 15" />
+      <img
+        src="../assets/HD-wallpaper-lonely-snowman-in-winter-night-pretty-house-cottage-home-beautiful-snowy-lights-cold-nice-painting-path-village-evening-blue-night-lovely-christmas-smile-new-year-lonely-trees-snowman.jpg"
+        *ngIf="14 <= 15"
+      />
+      <div class="weather-data">
+        <div class="location">Wellington</div>
+        <div class="temperature">{{ 14.4 | number : "1.0-0" }}°C</div>
+      </div>
+    </div>
+    <div class="lower-data">
+      <div class="more-info-label">More Information</div>
+      <div class="more-info-container">
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/thermometer-icon-low-temperature-symbol-vector-5461489.jpg"/>
+            <span>min</span>
+          </div>
+          <div class="info-block-value">10°C</div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/thermometer-icon-high-temperature-symbol-vector-5461475.jpg">
+            <span>max</span>
+          </div>
+          <div class="info-block-value">20°C</div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/download.png"/>
+            <span>humidity</span>
+          </div>
+          <div class="info-block-value">77%</div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/wind.png"/>
+            <span>wind</span>
+          </div>
+          <div class="info-block-value">11km/hr</div>
+        </div>
+  
+      </div>
+    </div>
+    </div> -->
+  
+  

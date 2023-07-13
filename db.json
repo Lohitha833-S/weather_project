@@ -1,0 +1,166 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupusers": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "fullname": "LOHITHA",
+      "email": "lohishanmugam833@gmail.com",
+      "password": null,
+      "mobile": "",
+      "id": 2
+    },
+    {
+      "fullname": "LOHITHA",
+      "email": "lohishanmugam833@gmail.com",
+      "password": "mmmmmmmmmm",
+      "mobile": 6369395801,
+      "id": 3
+    },
+    {
+      "fullname": "LOHITHA",
+      "email": "lohishanmugam833@gmail.com",
+      "password": "mmmm",
+      "mobile": 6369395801,
+      "id": 4
+    },
+    {
+      "fullname": "madhana",
+      "email": "maha@gmail.com",
+      "password": "qwert",
+      "mobile": 9345671234,
+      "id": 5
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 6
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 7
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 8
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 9
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 10
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 11
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 12
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 13
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 14
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 15
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 16
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 17
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": null,
+      "mobile": "",
+      "id": 18
+    },
+    {
+      "fullname": "madhana",
+      "email": "maha@gmail.com",
+      "password": "qwert",
+      "mobile": 9345671234,
+      "id": 19
+    },
+    {
+      "fullname": "madhana",
+      "email": "maha@gmail.com",
+      "password": "qwert",
+      "mobile": 9345671234,
+      "id": 20
+    },
+    {
+      "fullname": "kowshi",
+      "email": "kowshi@gmail.com",
+      "password": "asd",
+      "mobile": 2533,
+      "id": 21
+    },
+    {
+      "fullname": "kowshi",
+      "email": "kowshi@gmail.com",
+      "password": "asd",
+      "mobile": 2533,
+      "id": 22
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
